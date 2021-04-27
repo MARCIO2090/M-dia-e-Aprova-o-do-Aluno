@@ -1,5 +1,6 @@
-function MediaeSituacao()
-{// Capturar os valores
+function MediaeSituacao(){
+  
+// Capturar os valores
 var AV1 = document.getElementById('txtAV1').value;
 var AV2 = document.getElementById('txtAV2').value;
 var AV3 = document.getElementById('txtAV3').value;
@@ -32,4 +33,4 @@ if (AV1 && AV2 <= AV3);
 
 
 }
-document.getElementById('bntMediaeSituacao').addEventListener('click', MediaeSituacao)
+document.getElementById('bntExibir').addEventListener('click', Exibir)
